@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarcasm Detector</title>
+    <link rel="stylesheet" href="sarcasm_ui.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>&emsp;&emsp;Sarcasm Detector</h1>
+        </header>
+        
+        <main>
+            <h2>Welcome to Sarcasm Detector</h2>
+            <p>This is a detective which detects sarcastic text...</p>
+            
+            <div class="input-container">
+                <label for="inputText">Type Your Text Below</label>
+                <input type="text" id="inputText" placeholder="Type a tweet here">
+                <button onclick="detectSarcasm()">Submit</button>
+            </div>
+            
+            <p id="result"></p>
+        </main>
+    </div>
+    
+    <script src="sarcasm_ui.js"></script>
+
+
+</body>
+</html>
+
